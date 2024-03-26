@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="kr.ex.querydsl.QueryDslTest1" tests="7" skipped="0" failures="5" errors="0" timestamp="2024-03-22T02:46:16" hostname="DESKTOP-T0CQC6G" time="0.165">
+  <properties/>
+  <testcase name="paging1()" classname="kr.ex.querydsl.QueryDslTest1" time="0.028"/>
+  <testcase name="paging2()" classname="kr.ex.querydsl.QueryDslTest1" time="0.021">
+    <failure message="org.opentest4j.AssertionFailedError: &#13;&#10;expected: 4L&#13;&#10; but was: 5L" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: 
+expected: 4L
+ but was: 5L
+	at java.base@21.0.2/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base@21.0.2/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at app//kr.ex.querydsl.QueryDslTest1.paging2(QueryDslTest1.java:130)
+	at java.base@21.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.2/java.lang.reflect.Method.invoke(Method.java:580)
+	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at app//org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@21.0.2/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@21.0.2/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at app//org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:119)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:89)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base@21.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.2/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <testcase name="searchByQueryDsl()" classname="kr.ex.querydsl.QueryDslTest1" time="0.022">
+    <failure message="com.querydsl.core.NonUniqueResultException: jakarta.persistence.NonUniqueResultException: Query did not return a unique result: 2 results were returned" type="com.querydsl.core.NonUniqueResultException">com.querydsl.core.NonUniqueResultException: jakarta.persistence.NonUniqueResultException: Query did not return a unique result: 2 results were returned
+	at app//com.querydsl.jpa.impl.AbstractJPAQuery.fetchOne(AbstractJPAQuery.java:331)
+	at app//kr.ex.querydsl.QueryDslTest1.searchByQueryDsl(QueryDslTest1.java:67)
+	at java.base@21.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.2/java.lang.reflect.Method.invoke(Method.java:580)
+	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at app//org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@21.0.2/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@21.0.2/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at app//org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:119)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:89)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base@21.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.2/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: jakarta.persistence.NonUniqueResultException: Query did not return a unique result: 2 results were returned
+	at app//org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:131)
+	at app//org.hibernate.query.spi.AbstractSelectionQuery.getSingleResult(AbstractSelectionQuery.java:573)
+	at app//com.querydsl.jpa.impl.AbstractJPAQuery.getSingleResult(AbstractJPAQuery.java:214)
+	at app//com.querydsl.jpa.impl.AbstractJPAQuery.fetchOne(AbstractJPAQuery.java:326)
+	... 81 more
+Caused by: org.hibernate.NonUniqueResultException: Query did not return a unique result: 2 results were returned
+	at app//org.hibernate.query.spi.AbstractSelectionQuery.uniqueElement(AbstractSelectionQuery.java:586)
+	at app//org.hibernate.query.spi.AbstractSelectionQuery.getSingleResult(AbstractSelectionQuery.java:570)
+	... 83 more
+</failure>
+  </testcase>
+  <testcase name="searchByJPQL()" classname="kr.ex.querydsl.QueryDslTest1" time="0.021">
+    <failure message="jakarta.persistence.NonUniqueResultException: Query did not return a unique result: 2 results were returned" type="jakarta.persistence.NonUniqueResultException">jakarta.persistence.NonUniqueResultException: Query did not return a unique result: 2 results were returned
+	at app//org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:131)
+	at app//org.hibernate.query.spi.AbstractSelectionQuery.getSingleResult(AbstractSelectionQuery.java:573)
+	at app//kr.ex.querydsl.QueryDslTest1.searchByJPQL(QueryDslTest1.java:58)
+	at java.base@21.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.2/java.lang.reflect.Method.invoke(Method.java:580)
+	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at app//org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@21.0.2/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@21.0.2/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at app//org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:119)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:89)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base@21.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.2/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: org.hibernate.NonUniqueResultException: Query did not return a unique result: 2 results were returned
+	at app//org.hibernate.query.spi.AbstractSelectionQuery.uniqueElement(AbstractSelectionQuery.java:586)
+	at app//org.hibernate.query.spi.AbstractSelectionQuery.getSingleResult(AbstractSelectionQuery.java:570)
+	... 81 more
+</failure>
+  </testcase>
+  <testcase name="sort()" classname="kr.ex.querydsl.QueryDslTest1" time="0.023"/>
+  <testcase name="searchByQueryDsl2()" classname="kr.ex.querydsl.QueryDslTest1" time="0.015">
+    <failure message="com.querydsl.core.NonUniqueResultException: jakarta.persistence.NonUniqueResultException: Query did not return a unique result: 2 results were returned" type="com.querydsl.core.NonUniqueResultException">com.querydsl.core.NonUniqueResultException: jakarta.persistence.NonUniqueResultException: Query did not return a unique result: 2 results were returned
+	at app//com.querydsl.jpa.impl.AbstractJPAQuery.fetchOne(AbstractJPAQuery.java:331)
+	at app//kr.ex.querydsl.QueryDslTest1.searchByQueryDsl2(QueryDslTest1.java:74)
+	at java.base@21.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.2/java.lang.reflect.Method.invoke(Method.java:580)
+	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at app//org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@21.0.2/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@21.0.2/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at app//org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:119)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:89)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base@21.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.2/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: jakarta.persistence.NonUniqueResultException: Query did not return a unique result: 2 results were returned
+	at app//org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:131)
+	at app//org.hibernate.query.spi.AbstractSelectionQuery.getSingleResult(AbstractSelectionQuery.java:573)
+	at app//com.querydsl.jpa.impl.AbstractJPAQuery.getSingleResult(AbstractJPAQuery.java:214)
+	at app//com.querydsl.jpa.impl.AbstractJPAQuery.fetchOne(AbstractJPAQuery.java:326)
+	... 81 more
+Caused by: org.hibernate.NonUniqueResultException: Query did not return a unique result: 2 results were returned
+	at app//org.hibernate.query.spi.AbstractSelectionQuery.uniqueElement(AbstractSelectionQuery.java:586)
+	at app//org.hibernate.query.spi.AbstractSelectionQuery.getSingleResult(AbstractSelectionQuery.java:570)
+	... 83 more
+</failure>
+  </testcase>
+  <testcase name="testDomain()" classname="kr.ex.querydsl.QueryDslTest1" time="0.028">
+    <failure message="java.lang.NullPointerException: Cannot invoke &quot;kr.ex.querydsl.entity.Member.getUsername()&quot; because &quot;findMember&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;kr.ex.querydsl.entity.Member.getUsername()&quot; because &quot;findMember&quot; is null
+	at kr.ex.querydsl.QueryDslTest1.testDomain(QueryDslTest1.java:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:119)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:89)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <system-out><![CDATA[?[2m2024-03-22T11:46:16.008+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mt.c.s.AnnotationConfigContextLoaderUtils?[0;39m ?[2m:?[0;39m Could not detect default configuration classes for test class [kr.ex.querydsl.QueryDslTest1]: QueryDslTest1 does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+?[2m2024-03-22T11:46:16.010+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36m.b.t.c.SpringBootTestContextBootstrapper?[0;39m ?[2m:?[0;39m Found @SpringBootConfiguration kr.ex.querydsl.QueryDslApplication for test class kr.ex.querydsl.QueryDslTest1
+?[2m2024-03-22T11:46:16.017+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+?[2m2024-03-22T11:46:16.018+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576018 | took 0ms | statement | connection 13| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into team (name) values (?)
+insert into team (name) values ('teamA');
+?[2m2024-03-22T11:46:16.019+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+?[2m2024-03-22T11:46:16.019+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576019 | took 0ms | statement | connection 13| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into team (name) values (?)
+insert into team (name) values ('teamB');
+?[2m2024-03-22T11:46:16.020+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.021+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576021 | took 0ms | statement | connection 13| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (10,21,'member1');
+?[2m2024-03-22T11:46:16.021+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.022+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576022 | took 0ms | statement | connection 13| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (20,21,'member2');
+?[2m2024-03-22T11:46:16.022+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.023+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576023 | took 0ms | statement | connection 13| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (30,22,'member3');
+?[2m2024-03-22T11:46:16.024+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.025+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576024 | took 0ms | statement | connection 13| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (40,22,'member4');
+==========================
+?[2m2024-03-22T11:46:16.035+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    select
+        m1_0.member_id,
+        m1_0.age,
+        m1_0.team_id,
+        m1_0.username 
+    from
+        member m1_0 
+    order by
+        m1_0.username desc 
+    limit
+        ?, ?
+?[2m2024-03-22T11:46:16.036+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576036 | took 0ms | statement | connection 13| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+select m1_0.member_id,m1_0.age,m1_0.team_id,m1_0.username from member m1_0 order by m1_0.username desc limit ?,?
+select m1_0.member_id,m1_0.age,m1_0.team_id,m1_0.username from member m1_0 order by m1_0.username desc limit 1,2;
+?[2m2024-03-22T11:46:16.041+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576040 | took 1ms | rollback | connection 13| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+
+;
+?[2m2024-03-22T11:46:16.045+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+?[2m2024-03-22T11:46:16.045+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576045 | took 0ms | statement | connection 14| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into team (name) values (?)
+insert into team (name) values ('teamA');
+?[2m2024-03-22T11:46:16.046+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+?[2m2024-03-22T11:46:16.047+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576047 | took 0ms | statement | connection 14| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into team (name) values (?)
+insert into team (name) values ('teamB');
+?[2m2024-03-22T11:46:16.047+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.048+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576048 | took 0ms | statement | connection 14| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (10,23,'member1');
+?[2m2024-03-22T11:46:16.048+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.049+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576049 | took 0ms | statement | connection 14| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (20,23,'member2');
+?[2m2024-03-22T11:46:16.049+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.049+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576049 | took 0ms | statement | connection 14| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (30,24,'member3');
+?[2m2024-03-22T11:46:16.050+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.051+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576051 | took 0ms | statement | connection 14| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (40,24,'member4');
+==========================
+?[2m2024-03-22T11:46:16.053+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    select
+        count(m1_0.member_id) 
+    from
+        member m1_0
+?[2m2024-03-22T11:46:16.054+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576054 | took 1ms | statement | connection 14| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+select count(m1_0.member_id) from member m1_0
+select count(m1_0.member_id) from member m1_0;
+?[2m2024-03-22T11:46:16.056+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    select
+        m1_0.member_id,
+        m1_0.age,
+        m1_0.team_id,
+        m1_0.username 
+    from
+        member m1_0 
+    order by
+        m1_0.username desc 
+    limit
+        ?, ?
+?[2m2024-03-22T11:46:16.057+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576057 | took 0ms | statement | connection 14| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+select m1_0.member_id,m1_0.age,m1_0.team_id,m1_0.username from member m1_0 order by m1_0.username desc limit ?,?
+select m1_0.member_id,m1_0.age,m1_0.team_id,m1_0.username from member m1_0 order by m1_0.username desc limit 1,2;
+?[2m2024-03-22T11:46:16.062+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576062 | took 1ms | rollback | connection 14| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+
+;
+?[2m2024-03-22T11:46:16.068+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+?[2m2024-03-22T11:46:16.070+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576070 | took 0ms | statement | connection 15| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into team (name) values (?)
+insert into team (name) values ('teamA');
+?[2m2024-03-22T11:46:16.071+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+?[2m2024-03-22T11:46:16.071+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576071 | took 0ms | statement | connection 15| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into team (name) values (?)
+insert into team (name) values ('teamB');
+?[2m2024-03-22T11:46:16.072+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.072+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576072 | took 0ms | statement | connection 15| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (10,25,'member1');
+?[2m2024-03-22T11:46:16.073+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.074+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576074 | took 0ms | statement | connection 15| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (20,25,'member2');
+?[2m2024-03-22T11:46:16.075+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.075+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576075 | took 0ms | statement | connection 15| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (30,26,'member3');
+?[2m2024-03-22T11:46:16.076+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.076+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576076 | took 0ms | statement | connection 15| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (40,26,'member4');
+==========================
+?[2m2024-03-22T11:46:16.079+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    select
+        m1_0.member_id,
+        m1_0.age,
+        m1_0.team_id,
+        m1_0.username 
+    from
+        member m1_0 
+    where
+        m1_0.username=? 
+        and m1_0.age<=?
+?[2m2024-03-22T11:46:16.080+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576080 | took 0ms | statement | connection 15| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+select m1_0.member_id,m1_0.age,m1_0.team_id,m1_0.username from member m1_0 where m1_0.username=? and m1_0.age<=?
+select m1_0.member_id,m1_0.age,m1_0.team_id,m1_0.username from member m1_0 where m1_0.username='member1' and m1_0.age<=30;
+?[2m2024-03-22T11:46:16.084+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576084 | took 1ms | rollback | connection 15| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+
+;
+?[2m2024-03-22T11:46:16.090+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+?[2m2024-03-22T11:46:16.091+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576091 | took 0ms | statement | connection 16| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into team (name) values (?)
+insert into team (name) values ('teamA');
+?[2m2024-03-22T11:46:16.091+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+?[2m2024-03-22T11:46:16.092+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576092 | took 0ms | statement | connection 16| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into team (name) values (?)
+insert into team (name) values ('teamB');
+?[2m2024-03-22T11:46:16.092+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.093+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576093 | took 0ms | statement | connection 16| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (10,27,'member1');
+?[2m2024-03-22T11:46:16.093+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.094+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576094 | took 0ms | statement | connection 16| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (20,27,'member2');
+?[2m2024-03-22T11:46:16.095+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.095+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576095 | took 0ms | statement | connection 16| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (30,28,'member3');
+?[2m2024-03-22T11:46:16.096+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.097+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576097 | took 0ms | statement | connection 16| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (40,28,'member4');
+==========================
+?[2m2024-03-22T11:46:16.102+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    select
+        m1_0.member_id,
+        m1_0.age,
+        m1_0.team_id,
+        m1_0.username 
+    from
+        member m1_0 
+    where
+        m1_0.username=?
+?[2m2024-03-22T11:46:16.103+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576103 | took 0ms | statement | connection 16| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+select m1_0.member_id,m1_0.age,m1_0.team_id,m1_0.username from member m1_0 where m1_0.username=?
+select m1_0.member_id,m1_0.age,m1_0.team_id,m1_0.username from member m1_0 where m1_0.username='member1';
+?[2m2024-03-22T11:46:16.107+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576107 | took 1ms | rollback | connection 16| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+
+;
+?[2m2024-03-22T11:46:16.112+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+?[2m2024-03-22T11:46:16.113+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576113 | took 0ms | statement | connection 17| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into team (name) values (?)
+insert into team (name) values ('teamA');
+?[2m2024-03-22T11:46:16.114+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+?[2m2024-03-22T11:46:16.114+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576114 | took 0ms | statement | connection 17| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into team (name) values (?)
+insert into team (name) values ('teamB');
+?[2m2024-03-22T11:46:16.115+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.116+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576116 | took 0ms | statement | connection 17| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (10,29,'member1');
+?[2m2024-03-22T11:46:16.117+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.117+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576117 | took 0ms | statement | connection 17| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (20,29,'member2');
+?[2m2024-03-22T11:46:16.118+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.118+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576118 | took 0ms | statement | connection 17| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (30,30,'member3');
+?[2m2024-03-22T11:46:16.119+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.119+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576119 | took 0ms | statement | connection 17| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (40,30,'member4');
+==========================
+?[2m2024-03-22T11:46:16.121+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.121+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576121 | took 0ms | statement | connection 17| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (100,NULL,NULL);
+?[2m2024-03-22T11:46:16.122+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.122+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576122 | took 0ms | statement | connection 17| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (100,NULL,'member5');
+?[2m2024-03-22T11:46:16.123+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.123+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576123 | took 0ms | statement | connection 17| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (100,NULL,'member6');
+?[2m2024-03-22T11:46:16.127+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    select
+        m1_0.member_id,
+        m1_0.age,
+        m1_0.team_id,
+        m1_0.username 
+    from
+        member m1_0 
+    where
+        m1_0.age=? 
+    order by
+        m1_0.age desc,
+        case 
+            when (m1_0.username) is null 
+                then 1 
+            else 0 
+        end,
+        m1_0.username
+?[2m2024-03-22T11:46:16.129+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576129 | took 0ms | statement | connection 17| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+select m1_0.member_id,m1_0.age,m1_0.team_id,m1_0.username from member m1_0 where m1_0.age=? order by m1_0.age desc,case when (m1_0.username) is null then 1 else 0 end,m1_0.username
+select m1_0.member_id,m1_0.age,m1_0.team_id,m1_0.username from member m1_0 where m1_0.age=100 order by m1_0.age desc,case when (m1_0.username) is null then 1 else 0 end,m1_0.username;
+m = Member(id=65, username=member5, age=100)
+m = Member(id=66, username=member6, age=100)
+m = Member(id=64, username=null, age=100)
+?[2m2024-03-22T11:46:16.132+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576132 | took 1ms | rollback | connection 17| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+
+;
+?[2m2024-03-22T11:46:16.136+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+?[2m2024-03-22T11:46:16.136+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576136 | took 0ms | statement | connection 18| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into team (name) values (?)
+insert into team (name) values ('teamA');
+?[2m2024-03-22T11:46:16.137+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+?[2m2024-03-22T11:46:16.138+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576138 | took 0ms | statement | connection 18| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into team (name) values (?)
+insert into team (name) values ('teamB');
+?[2m2024-03-22T11:46:16.138+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.139+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576139 | took 0ms | statement | connection 18| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (10,31,'member1');
+?[2m2024-03-22T11:46:16.139+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.140+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576140 | took 0ms | statement | connection 18| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (20,31,'member2');
+?[2m2024-03-22T11:46:16.140+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.141+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576141 | took 0ms | statement | connection 18| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (30,32,'member3');
+?[2m2024-03-22T11:46:16.142+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.142+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576142 | took 0ms | statement | connection 18| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (40,32,'member4');
+==========================
+?[2m2024-03-22T11:46:16.143+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    select
+        m1_0.member_id,
+        m1_0.age,
+        m1_0.team_id,
+        m1_0.username 
+    from
+        member m1_0 
+    where
+        m1_0.username=? 
+        and m1_0.age<=?
+?[2m2024-03-22T11:46:16.144+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576144 | took 0ms | statement | connection 18| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+select m1_0.member_id,m1_0.age,m1_0.team_id,m1_0.username from member m1_0 where m1_0.username=? and m1_0.age<=?
+select m1_0.member_id,m1_0.age,m1_0.team_id,m1_0.username from member m1_0 where m1_0.username='member1' and m1_0.age<=30;
+?[2m2024-03-22T11:46:16.147+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576147 | took 1ms | rollback | connection 18| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+
+;
+?[2m2024-03-22T11:46:16.153+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+?[2m2024-03-22T11:46:16.154+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576154 | took 0ms | statement | connection 19| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into team (name) values (?)
+insert into team (name) values ('teamA');
+?[2m2024-03-22T11:46:16.154+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+?[2m2024-03-22T11:46:16.155+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576155 | took 0ms | statement | connection 19| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into team (name) values (?)
+insert into team (name) values ('teamB');
+?[2m2024-03-22T11:46:16.156+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.157+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576157 | took 0ms | statement | connection 19| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (10,33,'member1');
+?[2m2024-03-22T11:46:16.158+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.159+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576159 | took 0ms | statement | connection 19| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (20,33,'member2');
+?[2m2024-03-22T11:46:16.159+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.160+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576160 | took 0ms | statement | connection 19| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (30,34,'member3');
+?[2m2024-03-22T11:46:16.161+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:16.161+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576161 | took 0ms | statement | connection 19| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (40,34,'member4');
+==========================
+?[2m2024-03-22T11:46:16.170+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    select
+        m1_0.member_id,
+        m1_0.age,
+        m1_0.team_id,
+        m1_0.username 
+    from
+        member m1_0 
+    where
+        m1_0.member_id=?
+?[2m2024-03-22T11:46:16.172+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576172 | took 1ms | statement | connection 19| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+select m1_0.member_id,m1_0.age,m1_0.team_id,m1_0.username from member m1_0 where m1_0.member_id=?
+select m1_0.member_id,m1_0.age,m1_0.team_id,m1_0.username from member m1_0 where m1_0.member_id=28;
+?[2m2024-03-22T11:46:16.176+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576176 | took 1ms | rollback | connection 19| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+
+;
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

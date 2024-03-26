@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="kr.ex.querydsl.entity.HelloTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2024-03-22T02:46:16" hostname="DESKTOP-T0CQC6G" time="0.029">
+  <properties/>
+  <testcase name="firstTest()" classname="kr.ex.querydsl.entity.HelloTest" time="0.013"/>
+  <testcase name="firstQueryDSL()" classname="kr.ex.querydsl.entity.HelloTest" time="0.015">
+    <failure message="org.opentest4j.AssertionFailedError: &#13;&#10;expected: Hello(id=6)&#13;&#10; but was: Hello(id=5)" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: 
+expected: Hello(id=6)
+ but was: Hello(id=5)
+	at java.base@21.0.2/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base@21.0.2/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at app//kr.ex.querydsl.entity.HelloTest.firstQueryDSL(HelloTest.java:58)
+	at java.base@21.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.2/java.lang.reflect.Method.invoke(Method.java:580)
+	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at app//org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@21.0.2/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@21.0.2/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at app//org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:119)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:89)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base@21.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.2/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <system-out><![CDATA[?[2m2024-03-22T11:46:16.181+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mt.c.s.AnnotationConfigContextLoaderUtils?[0;39m ?[2m:?[0;39m Could not detect default configuration classes for test class [kr.ex.querydsl.entity.HelloTest]: HelloTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+?[2m2024-03-22T11:46:16.194+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36m.b.t.c.SpringBootTestContextBootstrapper?[0;39m ?[2m:?[0;39m Found @SpringBootConfiguration kr.ex.querydsl.QueryDslApplication for test class kr.ex.querydsl.entity.HelloTest
+?[2m2024-03-22T11:46:16.198+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        hello
+        
+    values
+        ( )
+?[2m2024-03-22T11:46:16.199+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576199 | took 1ms | statement | connection 20| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into hello values ( )
+insert into hello values ( );
+?[2m2024-03-22T11:46:16.200+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        hello
+        
+    values
+        ( )
+?[2m2024-03-22T11:46:16.201+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576201 | took 0ms | statement | connection 20| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into hello values ( )
+insert into hello values ( );
+?[2m2024-03-22T11:46:16.201+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        hello
+        
+    values
+        ( )
+?[2m2024-03-22T11:46:16.201+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576201 | took 0ms | statement | connection 20| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into hello values ( )
+insert into hello values ( );
+?[2m2024-03-22T11:46:16.201+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        hello
+        
+    values
+        ( )
+?[2m2024-03-22T11:46:16.202+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576202 | took 0ms | statement | connection 20| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into hello values ( )
+insert into hello values ( );
+=================
+?[2m2024-03-22T11:46:16.203+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    select
+        h1_0.id 
+    from
+        hello h1_0
+?[2m2024-03-22T11:46:16.204+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576204 | took 0ms | statement | connection 20| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+select h1_0.id from hello h1_0
+select h1_0.id from hello h1_0;
+h = Hello(id=1)
+h = Hello(id=2)
+h = Hello(id=3)
+h = Hello(id=4)
+?[2m2024-03-22T11:46:16.208+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576208 | took 1ms | rollback | connection 20| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+
+;
+?[2m2024-03-22T11:46:16.212+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        hello
+        
+    values
+        ( )
+?[2m2024-03-22T11:46:16.212+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576212 | took 0ms | statement | connection 21| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into hello values ( )
+insert into hello values ( );
+?[2m2024-03-22T11:46:16.213+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        hello
+        
+    values
+        ( )
+?[2m2024-03-22T11:46:16.213+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576213 | took 0ms | statement | connection 21| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into hello values ( )
+insert into hello values ( );
+?[2m2024-03-22T11:46:16.213+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        hello
+        
+    values
+        ( )
+?[2m2024-03-22T11:46:16.214+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576214 | took 0ms | statement | connection 21| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into hello values ( )
+insert into hello values ( );
+?[2m2024-03-22T11:46:16.214+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        hello
+        
+    values
+        ( )
+?[2m2024-03-22T11:46:16.215+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576215 | took 0ms | statement | connection 21| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+insert into hello values ( )
+insert into hello values ( );
+=================
+?[2m2024-03-22T11:46:16.217+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    select
+        h1_0.id 
+    from
+        hello h1_0
+?[2m2024-03-22T11:46:16.218+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576218 | took 0ms | statement | connection 21| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+select h1_0.id from hello h1_0
+select h1_0.id from hello h1_0;
+?[2m2024-03-22T11:46:16.220+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    select
+        h1_0.id 
+    from
+        hello h1_0 
+    limit
+        ?
+?[2m2024-03-22T11:46:16.221+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576221 | took 0ms | statement | connection 21| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+select h1_0.id from hello h1_0 limit ?
+select h1_0.id from hello h1_0 limit 1;
+findHello = Hello(id=5)
+?[2m2024-03-22T11:46:16.224+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075576224 | took 1ms | rollback | connection 21| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+
+;
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

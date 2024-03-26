@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - QuerDslTest2</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>QuerDslTest2</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/kr.ex.querydsl.html">kr.ex.querydsl</a> &gt; QuerDslTest2</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">7</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.511s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">aggregation()</td>
+<td class="success">0.038s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">basicCase()</td>
+<td class="success">0.090s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">complexCase()</td>
+<td class="success">0.063s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">group()</td>
+<td class="success">0.084s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">join_on_filtering()</td>
+<td class="success">0.023s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">subQuery()</td>
+<td class="success">1.182s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">theta_join()</td>
+<td class="success">0.031s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>11:46:10.098 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [kr.ex.querydsl.QuerDslTest2]: QuerDslTest2 does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:46:10.216 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration kr.ex.querydsl.QueryDslApplication for test class kr.ex.querydsl.QuerDslTest2
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+?[32m :: Spring Boot :: ?[39m              ?[2m (v3.2.3)?[0;39m
+
+?[2m2024-03-22T11:46:10.671+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mkr.ex.querydsl.QuerDslTest2             ?[0;39m ?[2m:?[0;39m Starting QuerDslTest2 using Java 21.0.2 with PID 21884 (started by TJ in C:\eclipseWorkspace\CHOSpringbootWorkspace\queryDsl)
+?[2m2024-03-22T11:46:10.672+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mkr.ex.querydsl.QuerDslTest2             ?[0;39m ?[2m:?[0;39m The following 1 profile is active: &quot;test&quot;
+?[2m2024-03-22T11:46:11.314+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36m.s.d.r.c.RepositoryConfigurationDelegate?[0;39m ?[2m:?[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+?[2m2024-03-22T11:46:11.340+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36m.s.d.r.c.RepositoryConfigurationDelegate?[0;39m ?[2m:?[0;39m Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+?[2m2024-03-22T11:46:11.879+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mo.hibernate.jpa.internal.util.LogHelper ?[0;39m ?[2m:?[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+?[2m2024-03-22T11:46:11.957+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.Version                   ?[0;39m ?[2m:?[0;39m HHH000412: Hibernate ORM core version 6.4.4.Final
+?[2m2024-03-22T11:46:11.999+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mo.h.c.internal.RegionFactoryInitiator   ?[0;39m ?[2m:?[0;39m HHH000026: Second-level cache disabled
+?[2m2024-03-22T11:46:12.291+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mo.s.o.j.p.SpringPersistenceUnitInfo     ?[0;39m ?[2m:?[0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+?[2m2024-03-22T11:46:12.327+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mcom.zaxxer.hikari.HikariDataSource      ?[0;39m ?[2m:?[0;39m HikariPool-1 - Starting...
+?[2m2024-03-22T11:46:12.496+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mcom.zaxxer.hikari.pool.HikariPool       ?[0;39m ?[2m:?[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62de73eb
+?[2m2024-03-22T11:46:12.498+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mcom.zaxxer.hikari.HikariDataSource      ?[0;39m ?[2m:?[0;39m HikariPool-1 - Start completed.
+?[2m2024-03-22T11:46:12.545+09:00?[0;39m ?[33m WARN?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.orm.deprecation           ?[0;39m ?[2m:?[0;39m HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+?[2m2024-03-22T11:46:12.547+09:00?[0;39m ?[33m WARN?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.orm.deprecation           ?[0;39m ?[2m:?[0;39m HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+?[2m2024-03-22T11:46:13.505+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mo.h.e.t.j.p.i.JtaPlatformInitiator      ?[0;39m ?[2m:?[0;39m HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+?[2m2024-03-22T11:46:13.523+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    alter table member 
+       drop 
+       foreign key FKcjte2jn9pvo9ud2hyfgwcja0k
+?[2m2024-03-22T11:46:13.543+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075573543 | took 17ms | statement | connection 1| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+
+    alter table member 
+       drop 
+       foreign key FKcjte2jn9pvo9ud2hyfgwcja0k
+
+    alter table member 
+       drop 
+       foreign key FKcjte2jn9pvo9ud2hyfgwcja0k;
+?[2m2024-03-22T11:46:13.543+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    drop table if exists hello
+?[2m2024-03-22T11:46:13.565+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075573565 | took 22ms | statement | connection 1| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+
+    drop table if exists hello
+
+    drop table if exists hello;
+?[2m2024-03-22T11:46:13.566+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    drop table if exists member
+?[2m2024-03-22T11:46:13.592+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075573592 | took 25ms | statement | connection 1| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+
+    drop table if exists member
+
+    drop table if exists member;
+?[2m2024-03-22T11:46:13.592+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    drop table if exists team
+?[2m2024-03-22T11:46:13.609+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075573609 | took 16ms | statement | connection 1| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+
+    drop table if exists team
+
+    drop table if exists team;
+?[2m2024-03-22T11:46:13.613+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    create table hello (
+        id bigint not null auto_increment,
+        primary key (id)
+    ) engine=InnoDB
+?[2m2024-03-22T11:46:13.633+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075573633 | took 19ms | statement | connection 2| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+
+    create table hello (
+        id bigint not null auto_increment,
+        primary key (id)
+    ) engine=InnoDB
+
+    create table hello (
+        id bigint not null auto_increment,
+        primary key (id)
+    ) engine=InnoDB;
+?[2m2024-03-22T11:46:13.634+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    create table member (
+        age integer not null,
+        member_id bigint not null auto_increment,
+        team_id bigint,
+        username varchar(255),
+        primary key (member_id)
+    ) engine=InnoDB
+?[2m2024-03-22T11:46:13.655+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075573655 | took 20ms | statement | connection 2| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+
+    create table member (
+        age integer not null,
+        member_id bigint not null auto_increment,
+        team_id bigint,
+        username varchar(255),
+        primary key (member_id)
+    ) engine=InnoDB
+
+    create table member (
+        age integer not null,
+        member_id bigint not null auto_increment,
+        team_id bigint,
+        username varchar(255),
+        primary key (member_id)
+    ) engine=InnoDB;
+?[2m2024-03-22T11:46:13.656+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    create table team (
+        team_id bigint not null auto_increment,
+        name varchar(255),
+        primary key (team_id)
+    ) engine=InnoDB
+?[2m2024-03-22T11:46:13.676+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075573676 | took 19ms | statement | connection 2| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+
+    create table team (
+        team_id bigint not null auto_increment,
+        name varchar(255),
+        primary key (team_id)
+    ) engine=InnoDB
+
+    create table team (
+        team_id bigint not null auto_increment,
+        name varchar(255),
+        primary key (team_id)
+    ) engine=InnoDB;
+?[2m2024-03-22T11:46:13.676+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    alter table member 
+       add constraint FKcjte2jn9pvo9ud2hyfgwcja0k 
+       foreign key (team_id) 
+       references team (team_id)
+?[2m2024-03-22T11:46:13.727+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075573727 | took 49ms | statement | connection 2| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+
+    alter table member 
+       add constraint FKcjte2jn9pvo9ud2hyfgwcja0k 
+       foreign key (team_id) 
+       references team (team_id)
+
+    alter table member 
+       add constraint FKcjte2jn9pvo9ud2hyfgwcja0k 
+       foreign key (team_id) 
+       references team (team_id);
+?[2m2024-03-22T11:46:13.730+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mj.LocalContainerEntityManagerFactoryBean?[0;39m ?[2m:?[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+?[2m2024-03-22T11:46:13.933+09:00?[0;39m ?[33m WARN?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mJpaBaseConfiguration$JpaWebConfiguration?[0;39m ?[2m:?[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+?[2m2024-03-22T11:46:14.345+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mkr.ex.querydsl.QuerDslTest2             ?[0;39m ?[2m:?[0;39m Started QuerDslTest2 in 3.967 seconds (process running for 5.144)
+?[2m2024-03-22T11:46:14.935+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+?[2m2024-03-22T11:46:14.949+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075574949 | took 3ms | statement | connection 3| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into team (name) values (?)
+insert into team (name) values ('teamA');
+?[2m2024-03-22T11:46:14.959+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+?[2m2024-03-22T11:46:14.960+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075574960 | took 0ms | statement | connection 3| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into team (name) values (?)
+insert into team (name) values ('teamB');
+?[2m2024-03-22T11:46:14.961+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:14.963+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075574963 | took 0ms | statement | connection 3| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (10,1,'member1');
+?[2m2024-03-22T11:46:14.963+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:14.964+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075574964 | took 0ms | statement | connection 3| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (20,1,'member2');
+?[2m2024-03-22T11:46:14.965+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:14.965+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075574965 | took 0ms | statement | connection 3| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (30,2,'member3');
+?[2m2024-03-22T11:46:14.965+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:14.966+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075574966 | took 0ms | statement | connection 3| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (40,2,'member4');
+==========================
+?[2m2024-03-22T11:46:15.469+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    select
+        m1_0.member_id,
+        m1_0.age,
+        m1_0.team_id,
+        m1_0.username 
+    from
+        member m1_0 
+    where
+        m1_0.age=(
+            select
+                max(m2_0.age) 
+            from
+                member m2_0
+        )
+?[2m2024-03-22T11:46:15.472+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575472 | took 2ms | statement | connection 3| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+select m1_0.member_id,m1_0.age,m1_0.team_id,m1_0.username from member m1_0 where m1_0.age=(select max(m2_0.age) from member m2_0)
+select m1_0.member_id,m1_0.age,m1_0.team_id,m1_0.username from member m1_0 where m1_0.age=(select max(m2_0.age) from member m2_0);
+?[2m2024-03-22T11:46:15.548+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575548 | took 2ms | rollback | connection 3| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+
+;
+?[2m2024-03-22T11:46:15.560+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+?[2m2024-03-22T11:46:15.561+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575561 | took 0ms | statement | connection 4| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into team (name) values (?)
+insert into team (name) values ('teamA');
+?[2m2024-03-22T11:46:15.561+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+?[2m2024-03-22T11:46:15.562+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575562 | took 0ms | statement | connection 4| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into team (name) values (?)
+insert into team (name) values ('teamB');
+?[2m2024-03-22T11:46:15.563+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:15.563+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575563 | took 0ms | statement | connection 4| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (10,3,'member1');
+?[2m2024-03-22T11:46:15.564+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:15.564+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575564 | took 0ms | statement | connection 4| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (20,3,'member2');
+?[2m2024-03-22T11:46:15.565+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:15.566+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575566 | took 0ms | statement | connection 4| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (30,4,'member3');
+?[2m2024-03-22T11:46:15.566+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:15.567+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575567 | took 0ms | statement | connection 4| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (40,4,'member4');
+==========================
+?[2m2024-03-22T11:46:15.568+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:15.570+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575570 | took 0ms | statement | connection 4| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (0,NULL,'teamA');
+?[2m2024-03-22T11:46:15.570+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:15.571+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575571 | took 0ms | statement | connection 4| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (0,NULL,'teamB');
+?[2m2024-03-22T11:46:15.572+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:15.572+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575572 | took 0ms | statement | connection 4| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (0,NULL,'teamC');
+?[2m2024-03-22T11:46:15.579+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    select
+        m1_0.member_id,
+        m1_0.age,
+        m1_0.team_id,
+        m1_0.username 
+    from
+        member m1_0,
+        team t1_0 
+    where
+        m1_0.username=t1_0.name
+?[2m2024-03-22T11:46:15.580+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575580 | took 0ms | statement | connection 4| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+select m1_0.member_id,m1_0.age,m1_0.team_id,m1_0.username from member m1_0,team t1_0 where m1_0.username=t1_0.name
+select m1_0.member_id,m1_0.age,m1_0.team_id,m1_0.username from member m1_0,team t1_0 where m1_0.username=t1_0.name;
+m = Member(id=9, username=teamA, age=0)t =null
+m = Member(id=10, username=teamB, age=0)t =null
+?[2m2024-03-22T11:46:15.587+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575587 | took 1ms | rollback | connection 4| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+
+;
+?[2m2024-03-22T11:46:15.591+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+?[2m2024-03-22T11:46:15.592+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575592 | took 0ms | statement | connection 5| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into team (name) values (?)
+insert into team (name) values ('teamA');
+?[2m2024-03-22T11:46:15.594+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+?[2m2024-03-22T11:46:15.595+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575595 | took 0ms | statement | connection 5| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into team (name) values (?)
+insert into team (name) values ('teamB');
+?[2m2024-03-22T11:46:15.595+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:15.596+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575596 | took 0ms | statement | connection 5| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (10,5,'member1');
+?[2m2024-03-22T11:46:15.597+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:15.597+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575597 | took 0ms | statement | connection 5| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (20,5,'member2');
+?[2m2024-03-22T11:46:15.598+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:15.599+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575599 | took 0ms | statement | connection 5| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (30,6,'member3');
+?[2m2024-03-22T11:46:15.600+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:15.600+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575600 | took 0ms | statement | connection 5| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (40,6,'member4');
+==========================
+?[2m2024-03-22T11:46:15.668+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    select
+        case 
+            when m1_0.age=? 
+                then cast(? as char) 
+            when m1_0.age=? 
+                then cast(? as char) 
+            else '기타' 
+        end 
+    from
+        member m1_0
+?[2m2024-03-22T11:46:15.672+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575672 | took 1ms | statement | connection 5| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+select case when m1_0.age=? then cast(? as char) when m1_0.age=? then cast(? as char) else '기타' end from member m1_0
+select case when m1_0.age=10 then cast('열살' as char) when m1_0.age=20 then cast('스무살' as char) else '기타' end from member m1_0;
+s = 열살
+s = 스무살
+s = 기타
+s = 기타
+?[2m2024-03-22T11:46:15.678+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575678 | took 2ms | rollback | connection 5| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+
+;
+?[2m2024-03-22T11:46:15.684+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+?[2m2024-03-22T11:46:15.685+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575685 | took 0ms | statement | connection 6| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into team (name) values (?)
+insert into team (name) values ('teamA');
+?[2m2024-03-22T11:46:15.686+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+?[2m2024-03-22T11:46:15.687+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575687 | took 0ms | statement | connection 6| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into team (name) values (?)
+insert into team (name) values ('teamB');
+?[2m2024-03-22T11:46:15.688+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:15.689+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575689 | took 0ms | statement | connection 6| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (10,7,'member1');
+?[2m2024-03-22T11:46:15.690+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:15.691+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575691 | took 0ms | statement | connection 6| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (20,7,'member2');
+?[2m2024-03-22T11:46:15.691+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:15.692+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575692 | took 0ms | statement | connection 6| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (30,8,'member3');
+?[2m2024-03-22T11:46:15.692+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:15.693+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575693 | took 0ms | statement | connection 6| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (40,8,'member4');
+==========================
+?[2m2024-03-22T11:46:15.751+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    select
+        t1_0.name,
+        avg(m1_0.age) 
+    from
+        member m1_0 
+    join
+        team t1_0 
+            on t1_0.team_id=m1_0.team_id 
+    group by
+        t1_0.name
+?[2m2024-03-22T11:46:15.753+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575753 | took 1ms | statement | connection 6| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+select t1_0.name,avg(m1_0.age) from member m1_0 join team t1_0 on t1_0.team_id=m1_0.team_id group by t1_0.name
+select t1_0.name,avg(m1_0.age) from member m1_0 join team t1_0 on t1_0.team_id=m1_0.team_id group by t1_0.name;
+teamA = [teamA, 15.0]
+teamB = [teamB, 35.0]
+?[2m2024-03-22T11:46:15.764+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575763 | took 1ms | rollback | connection 6| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+
+;
+?[2m2024-03-22T11:46:15.768+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+?[2m2024-03-22T11:46:15.769+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575769 | took 0ms | statement | connection 7| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into team (name) values (?)
+insert into team (name) values ('teamA');
+?[2m2024-03-22T11:46:15.770+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+?[2m2024-03-22T11:46:15.771+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575771 | took 0ms | statement | connection 7| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into team (name) values (?)
+insert into team (name) values ('teamB');
+?[2m2024-03-22T11:46:15.771+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:15.772+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575772 | took 0ms | statement | connection 7| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (10,9,'member1');
+?[2m2024-03-22T11:46:15.773+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:15.773+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575773 | took 0ms | statement | connection 7| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (20,9,'member2');
+?[2m2024-03-22T11:46:15.774+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:15.775+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575775 | took 0ms | statement | connection 7| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (30,10,'member3');
+?[2m2024-03-22T11:46:15.775+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:15.776+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575776 | took 0ms | statement | connection 7| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (40,10,'member4');
+==========================
+?[2m2024-03-22T11:46:15.821+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    select
+        case 
+            when (m1_0.age between ? and ?) 
+                then cast(? as char) 
+            when (m1_0.age between ? and ?) 
+                then cast(? as char) 
+            else '기타' 
+        end 
+    from
+        member m1_0
+?[2m2024-03-22T11:46:15.823+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575823 | took 0ms | statement | connection 7| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+select case when (m1_0.age between ? and ?) then cast(? as char) when (m1_0.age between ? and ?) then cast(? as char) else '기타' end from member m1_0
+select case when (m1_0.age between 0 and 20) then cast('0~20살' as char) when (m1_0.age between 21 and 30) then cast('21~30살' as char) else '기타' end from member m1_0;
+s = 0~20살
+s = 0~20살
+s = 21~30살
+s = 기타
+?[2m2024-03-22T11:46:15.827+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575827 | took 1ms | rollback | connection 7| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+
+;
+?[2m2024-03-22T11:46:15.832+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+?[2m2024-03-22T11:46:15.833+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575833 | took 0ms | statement | connection 8| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into team (name) values (?)
+insert into team (name) values ('teamA');
+?[2m2024-03-22T11:46:15.833+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+?[2m2024-03-22T11:46:15.834+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575833 | took 0ms | statement | connection 8| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into team (name) values (?)
+insert into team (name) values ('teamB');
+?[2m2024-03-22T11:46:15.834+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:15.834+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575834 | took 0ms | statement | connection 8| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (10,11,'member1');
+?[2m2024-03-22T11:46:15.835+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:15.836+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575836 | took 0ms | statement | connection 8| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (20,11,'member2');
+?[2m2024-03-22T11:46:15.836+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:15.837+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575837 | took 0ms | statement | connection 8| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (30,12,'member3');
+?[2m2024-03-22T11:46:15.837+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:15.838+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575838 | took 0ms | statement | connection 8| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (40,12,'member4');
+==========================
+?[2m2024-03-22T11:46:15.859+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    select
+        count(m1_0.member_id),
+        sum(m1_0.age),
+        avg(m1_0.age),
+        max(m1_0.age),
+        min(m1_0.age) 
+    from
+        member m1_0
+?[2m2024-03-22T11:46:15.860+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575860 | took 1ms | statement | connection 8| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+select count(m1_0.member_id),sum(m1_0.age),avg(m1_0.age),max(m1_0.age),min(m1_0.age) from member m1_0
+select count(m1_0.member_id),sum(m1_0.age),avg(m1_0.age),max(m1_0.age),min(m1_0.age) from member m1_0;
+tuple.toString() = [4, 100, 25.0, 40, 10]
+count = 4
+t = [4, 100, 25.0, 40, 10]
+?[2m2024-03-22T11:46:15.867+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575867 | took 1ms | rollback | connection 8| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+
+;
+?[2m2024-03-22T11:46:15.871+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+?[2m2024-03-22T11:46:15.872+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575872 | took 0ms | statement | connection 9| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into team (name) values (?)
+insert into team (name) values ('teamA');
+?[2m2024-03-22T11:46:15.872+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+?[2m2024-03-22T11:46:15.873+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575873 | took 0ms | statement | connection 9| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into team (name) values (?)
+insert into team (name) values ('teamB');
+?[2m2024-03-22T11:46:15.873+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:15.873+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575873 | took 0ms | statement | connection 9| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (10,13,'member1');
+?[2m2024-03-22T11:46:15.873+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:15.874+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575874 | took 0ms | statement | connection 9| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (20,13,'member2');
+?[2m2024-03-22T11:46:15.874+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:15.875+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575875 | took 0ms | statement | connection 9| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (30,14,'member3');
+?[2m2024-03-22T11:46:15.875+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    insert 
+    into
+        member
+        (age, team_id, username) 
+    values
+        (?, ?, ?)
+?[2m2024-03-22T11:46:15.875+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575875 | took 0ms | statement | connection 9| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+insert into member (age,team_id,username) values (?,?,?)
+insert into member (age,team_id,username) values (40,14,'member4');
+==========================
+?[2m2024-03-22T11:46:15.884+09:00?[0;39m ?[32mDEBUG?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36morg.hibernate.SQL                       ?[0;39m ?[2m:?[0;39m 
+    select
+        m1_0.member_id,
+        m1_0.age,
+        m1_0.team_id,
+        m1_0.username,
+        t1_0.team_id,
+        t1_0.name 
+    from
+        member m1_0 
+    left join
+        team t1_0 
+            on t1_0.team_id=m1_0.team_id 
+            and t1_0.name=?
+?[2m2024-03-22T11:46:15.885+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575885 | took 0ms | statement | connection 9| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+select m1_0.member_id,m1_0.age,m1_0.team_id,m1_0.username,t1_0.team_id,t1_0.name from member m1_0 left join team t1_0 on t1_0.team_id=m1_0.team_id and t1_0.name=?
+select m1_0.member_id,m1_0.age,m1_0.team_id,m1_0.username,t1_0.team_id,t1_0.name from member m1_0 left join team t1_0 on t1_0.team_id=m1_0.team_id and t1_0.name='teamA';
+tuple = [Member(id=28, username=member1, age=10), Team(id=13, name=teamA)]
+tuple = [Member(id=29, username=member2, age=20), Team(id=13, name=teamA)]
+tuple = [Member(id=30, username=member3, age=30), null]
+tuple = [Member(id=31, username=member4, age=40), null]
+?[2m2024-03-22T11:46:15.892+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mp6spy                                   ?[0;39m ?[2m:?[0;39m #1711075575892 | took 1ms | rollback | connection 9| url jdbc:mysql://localhost:3306/sampleDB?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true
+
+;
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>WARNING: A Java agent has been loaded dynamically (C:\Users\TJ\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.12\be4984cb6fd1ef1d11f218a648889dfda44b8a15\byte-buddy-agent-1.14.12.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.6</a> at 2024. 3. 22. 오전 11:46:16</p>
+</div>
+</div>
+</body>
+</html>

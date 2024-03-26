@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="kr.ex.querydsl.QueryDslApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-22T02:46:16" hostname="DESKTOP-T0CQC6G" time="0.002">
+  <properties/>
+  <testcase name="contextLoads()" classname="kr.ex.querydsl.QueryDslApplicationTests" time="0.002"/>
+  <system-out><![CDATA[?[2m2024-03-22T11:46:15.999+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36mt.c.s.AnnotationConfigContextLoaderUtils?[0;39m ?[2m:?[0;39m Could not detect default configuration classes for test class [kr.ex.querydsl.QueryDslApplicationTests]: QueryDslApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+?[2m2024-03-22T11:46:16.000+09:00?[0;39m ?[32m INFO?[0;39m ?[35m21884?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[2m?[0;39m?[36m.b.t.c.SpringBootTestContextBootstrapper?[0;39m ?[2m:?[0;39m Found @SpringBootConfiguration kr.ex.querydsl.QueryDslApplication for test class kr.ex.querydsl.QueryDslApplicationTests
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

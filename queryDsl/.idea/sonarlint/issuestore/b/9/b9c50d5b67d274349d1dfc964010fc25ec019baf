@@ -1,0 +1,12 @@
+
+ª
+java:S1488"bImmediately return this expression instead of assigning it to the temporary variable "memberlist".(Ë¿÷±úÿÿÿÿ8·ý‘¢æ1J$d14a9e78-3095-4750-a97c-9149a50c6489
+}	java:S125"<This block of commented-out lines of code should be removed.(ŠŽ‘8Áý‘¢æ1J$5d0ec326-12b2-43e9-96a5-6e39dbda3782
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(˜þÎþÿÿÿÿÿ8Âý‘¢æ1J$eec790ef-2256-4bb5-ab02-25c95a92ed31
+~	java:S125-"<This block of commented-out lines of code should be removed.(öœ„¦8Ãý‘¢æ1J$ce1d387e-6a05-4b57-8376-3c554a473939
+†
+java:S1155.">Use isEmpty() to check whether the collection is empty or not.(¶Ó„øùÿÿÿÿ8Äý‘¢æ1J$a92be6c6-c896-4d4e-ac86-e415e6bca74b
+ƒ	java:S1250"<This block of commented-out lines of code should be removed.(Ë¸•àüÿÿÿÿ8Åý‘¢æ1J$2eecf3aa-4e6c-41d9-b586-92e5b53434d2
+~	java:S1255"<This block of commented-out lines of code should be removed.(óµž“8Æý‘¢æ1J$8e12b115-64b9-4a0d-8f1e-7fbc6361aac6
+m	java:S106R"+Replace this use of System.out by a logger.(È×¦Ç8Éý‘¢æ1J$c27b0c18-4e84-48d2-ad29-99ce9129bb88
+m	java:S106X"+Replace this use of System.out by a logger.(È×¦Ç8Êý‘¢æ1J$fda11d4d-fbcb-44d0-bf07-75e8e760c471

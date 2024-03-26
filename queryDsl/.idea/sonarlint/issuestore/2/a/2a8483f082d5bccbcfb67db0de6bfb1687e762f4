@@ -1,0 +1,15 @@
+
+…
+java:S1128"=Remove this unused import 'com.querydsl.core.BooleanBuilder'.(‡Ìè¼şÿÿÿÿ8­ù‘¢æ1J$8dc4483c-ad90-470d-839c-0772f97170aa
+ƒ
+java:S1128"@Remove this unused import 'kr.ex.querydsl.dto.MemberSearchCond'.(å©Æ·8­ù‘¢æ1J$fa3bd6c9-5a69-4557-a5cd-06871743bbba
+€
+java:S1128"=Remove this unused import 'kr.ex.querydsl.dto.MemberTeamDto'.(Ÿ¨’€8­ù‘¢æ1J$356036c3-8b0a-4560-85dd-b996833d42d7
+†
+java:S1128">Remove this unused import 'kr.ex.querydsl.dto.QMemberTeamDto'.(í¨¶şÿÿÿÿ8­ù‘¢æ1J$a5354611-2fc2-4c9a-ae10-b592683fd5e7
+‰
+java:S1128"ARemove this unused import 'kr.ex.querydsl.entity.QMember.member'.(»âéßøÿÿÿÿ8­ù‘¢æ1J$533d763d-3c72-4878-bb7f-c3805b6f40b9
+…
+java:S1128"=Remove this unused import 'kr.ex.querydsl.entity.QTeam.team'.(íø¯êıÿÿÿÿ8­ù‘¢æ1J$d2224903-408e-4bb1-a4e3-aab7fe014996
+Œ
+java:S1128"IRemove this unused import 'org.springframework.util.StringUtils.hasText'.(òåÓ»8®ù‘¢æ1J$039b219b-37be-47ab-8d98-89b5baf6e5ca

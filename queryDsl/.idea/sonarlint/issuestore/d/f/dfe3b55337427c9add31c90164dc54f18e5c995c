@@ -1,0 +1,9 @@
+
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(·È‡ìùÿÿÿÿ8ıü‘¢æ1J$fa3b56ec-9509-4ee5-a7bd-fd08bdb1607d
+	java:S1009"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÖ¾£8ÿü‘¢æ1J$2ecb9308-0703-42e0-b9bd-d50425af3298
+	java:S100@"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨â¾Ø8ÿü‘¢æ1J$5bf322d3-66c6-4393-b19c-4c1cfe566222
+}
+java:S1128
+":Remove this unused import 'kr.ex.querydsl.entity.QMember'.(¹áÆû8ŒÚ¡æ1J$90c712c5-cd63-4d67-9456-57b2dea04689
+{
+java:S1128"8Remove this unused import 'kr.ex.querydsl.entity.QTeam'.(ºÅ‰8Ú¡æ1J$c96b9f38-b307-4e97-bfb2-6a99c19e1b95
